@@ -90,7 +90,7 @@ body {
 .header__content {
   max-width: 672px;
   margin-top: 342px;
-  padding-bottom: 318px;
+  padding-bottom: 305px;
   margin-left: auto;
 }
 
@@ -130,4 +130,73 @@ body {
   cursor: pointer;
   display: block;
   margin: 0 auto;
+}
+
+.traditions {
+  background-image: url(/images/tradition-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.traditions__descr {
+  max-width: 637px;
+  margin: 0 auto;
+  padding-top: 115px;
+  margin-bottom: 90px;
+}
+
+.traditions__descr--title {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  margin-bottom: 28px;
+  text-align: center;
+}
+
+.traditions__descr--row {
+  width: 100px;
+  border-top: 3px solid #C9A74D;
+  margin: 0 auto;
+  padding-bottom: 28px;
+}
+
+.traditions__descr--text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+}
+
+.traditions__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 119px;
+}
+
+.traditions__box--item {
+  max-width: 290px;
+}
+
+.traditions__box-img {
+  display: block;
+  padding-bottom: 47px;
+  margin: 0 auto;
+}
+
+.traditions__box--title {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.traditions__box--text {
+  line-height: 150%;
+  text-align: center;
 }
