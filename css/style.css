@@ -33,3 +33,54 @@ body {
   font-size: 14px;
   color: #000;
 }
+
+.container {
+  margin: 0 auto;
+  max-width: 1475px;
+  padding: 0 10px;
+}
+
+.header {
+  background-image: url(/images/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.header__top {
+  padding-top: 35px;
+  /* margin-bottom: 340px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__menu {
+  margin: 0 15px;
+  display: flex;
+  align-items: center;
+}
+
+.header__list {
+  display: flex;
+}
+
+.header__item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  padding-right: 65px;
+}
+
+.header__adds {
+  display: flex;
+  align-items: center;
+}
+
+.header__adds-search {
+  margin-right: 34px;
+  background-image: url(/images/search.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
