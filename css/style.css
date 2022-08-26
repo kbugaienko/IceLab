@@ -83,4 +83,6 @@ body {
   background-position: right;
   background-repeat: no-repeat;
   background-size: contain;
+  border: 1px solid #e2e2e2;
+  border-radius: 10px;
 }
