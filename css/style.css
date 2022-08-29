@@ -118,7 +118,8 @@ body {
   padding-bottom: 23px;
 }
 
-.header__content--text {
+.header__content--text,
+.testimonial__text {
   font-size: 24px;
   line-height: 150%;
   text-align: center;
@@ -162,7 +163,8 @@ body {
 }
 
 .traditions__row,
-.productinfo__row {
+.productinfo__row,
+.testimonial__row {
   width: 100px;
   border-top: 3px solid #C9A74D;
   margin: 0 auto;
@@ -212,7 +214,8 @@ body {
   margin-top: 101px;
 }
 
-.productinfo__title {
+.productinfo__title,
+.testimonial__title {
   text-align: center;
   margin-bottom: 28px;
 }
@@ -280,4 +283,34 @@ body {
 
 .box__text--right {
   text-align: right;
+}
+
+.testimonial {
+  background-image: url(/images/testimonial-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 713px;
+}
+
+.testimonial__inner {
+  max-width: 992px;
+  margin: 0 auto;
+  margin-bottom: 200px;
+  padding-top: 147px;  
+}
+
+.testimonial__text {
+  margin-bottom: 74px;
+}
+
+.testimonial__author span {
+  font-family: 'Rubik', sans-serif;
+  font-size: 32px;
+  line-height: 38px;
+}
+.testimonial__author {
+  text-align: center;
+  font-size: 24px;
+  line-height: 30px;
 }
