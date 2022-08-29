@@ -293,11 +293,10 @@ body {
   min-height: 713px;
 }
 
-.testimonial__inner {
+.testimonial__slider {
+  padding-top: 147px;
   max-width: 992px;
   margin: 0 auto;
-  margin-bottom: 200px;
-  padding-top: 147px;  
 }
 
 .testimonial__text {
@@ -313,4 +312,25 @@ body {
   text-align: center;
   font-size: 24px;
   line-height: 30px;
+}
+
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+}
+
+.slick-dots button {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: none;
+  font-size: 0px;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0 15px;
+}
+
+.slick-dots .slick-active button {
+  background-color: #000;
 }
