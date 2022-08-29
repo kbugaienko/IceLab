@@ -165,7 +165,8 @@ body {
 .traditions__row,
 .productinfo__row,
 .testimonial__row,
-.flav__row {
+.flav__row,
+.special__row {
   width: 100px;
   border-top: 3px solid #C9A74D;
   margin: 0 auto;
@@ -351,21 +352,25 @@ body {
   padding-top: 152px;
 }
 
-.flav__row {
+.flav__row,
+.special__row {
   margin: 0;
 }
 
-.flav__title {
+.flav__title,
+.special__title {
   margin-bottom: 32px;
 }
 
-.flav__text {
+.flav__text,
+.special__text {
   font-size: 18px;
   line-height: 150%;
   margin-bottom: 39px;
 }
 
-.flav__btn {
+.flav__btn,
+.special__btn {
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
@@ -382,4 +387,21 @@ body {
   position: absolute;
   left: 0;
   bottom: 104px;
+}
+
+.special {
+  position: relative;
+}
+
+.special__img {
+  position: absolute;
+  right: 0;
+  bottom: 44px;
+}
+
+.special__info {
+  max-width: 698px;
+  padding-top: 172px;
+  margin-left: 0;
+  padding-bottom: 195px;
 }
