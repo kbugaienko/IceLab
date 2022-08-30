@@ -468,3 +468,44 @@ body {
   font-family: 'Poppins', sans-serif;
   line-height: 21px;
 }
+
+.collage {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;  
+}
+
+.collage__imgtext {
+  width: 480px;
+  height: 480px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.67)), url(/images/collage-7.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.collage__p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  color: #fff;
+}
+
+.collage__text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 108.5%;
+  text-align: center;
+}
+
+.collage__suptext {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 108.5%;
+  text-align: center;
+}
