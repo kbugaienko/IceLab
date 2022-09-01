@@ -253,9 +253,8 @@ body {
 .productinfo__box {
   display: grid;
   grid-template-columns: 354px 441px 350px;
+  justify-content: center;
   gap: 50px;
-  max-width: 1240px;
-  margin: 0 auto;
 }
 
 .productinfo__box--01,
@@ -676,6 +675,28 @@ body {
 
 /* Media Queries */
 
+@media (max-width: 1275px) {
+  .productinfo__box {
+    gap: 0;
+    grid-template-columns: 343px 291px 343px;
+  }
+  .productinfo__box-02 {
+    place-self: center;
+  }
+  .productinfo__box-img {
+    height: 350px;
+  }
+}
+
+@media (max-width: 999px) {
+  .productinfo__box-img {
+    height: 250px;
+  }
+  .productinfo__box {
+    grid-template-columns: 343px 194px 343px;
+  }
+}
+
 @media (max-width: 960px) {
   .header__item {
     padding-right: 20px;
@@ -689,6 +710,33 @@ body {
   .traditions__box {
     flex-wrap: wrap;
     justify-content: center;
+  }
+}
+
+@media (max-width: 900px) {
+  .productinfo__box {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .productinfo__box--01,
+  .productinfo__box--02,
+  .productinfo__box--03 {
+    margin-bottom: 50px;
+    flex-direction: column;
+  }
+  .productinfo__box--04,
+  .productinfo__box--05,
+  .productinfo__box--06  {
+    margin-bottom: 50px;
+    flex-direction: column-reverse;
+  }
+  .box__descr {
+    margin-top: 10px;
+    max-width: none;
+  }
+  .productinfo__box-right p.box__num {
+    margin-left: auto;
   }
 }
 
@@ -772,6 +820,23 @@ body {
   .traditions__box {
     padding-bottom: 80px;
   }
+  .productinfo__box--01,
+  .productinfo__box--02,
+  .productinfo__box--03 {
+    margin-bottom: 20px;
+  }
+  .productinfo__box--04,
+  .productinfo__box--05,
+  .productinfo__box--06  {
+    margin-bottom: 20px;
+  }
+  .productinfo__box-img {
+    height: 110px;
+  }
+  .productinfo {
+    margin-bottom: 50px;
+    margin-top: 70px;
+  }
 }
 
 @media (max-width: 450px) {
@@ -795,6 +860,25 @@ body {
   }
   .traditions__descr--title {
     font-size: 30px;
+  }
+}
+
+@media (max-width: 410px) {
+  .productinfo__box-img {
+    display: none;
+  }
+  .productinfo__box {
+    gap: 0px;
+    flex-wrap: wrap;
+  }
+  .productinfo__box-right .box__text--right {
+    text-align: left;
+  }
+  .productinfo__box-right .box__title--right {
+    text-align: left;
+  }
+  .productinfo__box-right p.box__num {
+    margin-left: revert;
   }
 }
 
