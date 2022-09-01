@@ -87,6 +87,17 @@ body {
 
 .header__adds-search {
   margin-right: 34px;
+  /* background-image: url(/images/search.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 1px solid #e2e2e2;
+  border-radius: 10px; */
+}
+
+.header__adds-search--active {
+  display: none;
+  width: 450px;
   background-image: url(/images/search.svg);
   background-position: right;
   background-repeat: no-repeat;
