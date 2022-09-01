@@ -206,6 +206,7 @@ body {
 
 .traditions__box--item {
   max-width: 290px;
+  margin: 0 10px;
 }
 
 .traditions__box-img {
@@ -685,6 +686,10 @@ body {
   .header {
     background-position: right;
   }
+  .traditions__box {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 @media (max-width: 670px) {
@@ -757,6 +762,16 @@ body {
   .header__content--text {
     font-size: 20px;
   }
+  .traditions__descr {
+    padding-top: 80px;
+    margin-bottom: 60px;
+  }
+  .traditions__box-img {
+    padding-bottom: 30px;
+  }
+  .traditions__box {
+    padding-bottom: 80px;
+  }
 }
 
 @media (max-width: 450px) {
@@ -770,6 +785,16 @@ body {
   }
   .header__content--text {
     font-size: 18px;
+  }
+  .traditions__box--title {
+    font-size: 20px;
+    line-height: 23px;
+  }
+  .traditions__box-img {
+    padding-bottom: 15px;
+  }
+  .traditions__descr--title {
+    font-size: 30px;
   }
 }
 
