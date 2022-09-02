@@ -420,9 +420,8 @@ body {
 
 .special__info {
   max-width: 698px;
-  padding-top: 172px;
   margin-left: 0;
-  padding-bottom: 195px;
+  padding: 172px 10px 195px 10px;
 }
 
 .menu {
@@ -682,10 +681,31 @@ body {
   }
 }
 
+@media (max-width: 1580px) {
+  .special__img {
+    height: 670px;
+    bottom: 135px;
+  }
+}
+
 @media (max-width: 1447px) {
   .flav__img {
     bottom: 300px;
     height: 500px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .special__img {
+    height: 550px;
+    bottom: 255px;
+  }
+}
+
+@media (max-width: 1218px) {
+  .special__img {
+    height: 415px;
+    bottom: 372px;
   }
 }
 
@@ -710,31 +730,41 @@ body {
 }
 
 @media (max-width: 1150px) {
-  .flav__inner {
+  .flav__inner,
+  .special__inner {
     display: flex;
     flex-direction: column-reverse;
   }
-  .flav__img {
+  .flav__img,
+  .special__img {
     position: unset;
     margin: 0 auto;
     margin-bottom: 200px;
   }
-  .flav__info {
+  .flav__info,
+  .special__info {
     margin: 0 auto;
     padding-bottom: 70px;
   }
-  .flav__title {
+  .flav__title,
+  .special__title {
     text-align: center;
   }
-  .flav__row {
+  .flav__row,
+  .special__row {
     margin: 0 auto;
   }
-  .flav__text{
+  .flav__text, 
+  .special__text {
     text-align: center;
   }
-  .flav__btn {
+  .flav__btn,
+  .special__btn {
     display: block;
     margin: 0 auto;
+  }
+  .special__info {
+    padding-top: 152px;
   }
 }
 
@@ -872,10 +902,12 @@ body {
     padding: 10px 15px;
     font-size: 18px;
   }
-  .flav__info {
+  .flav__info,
+  .special__info {
     padding-top: 100px;
   }
-  .flav__img {
+  .flav__img,
+  .special__img {
     margin-bottom: 100px;
   }
 }
@@ -919,7 +951,8 @@ body {
 }
 
 @media (max-width: 460px) {
-  .flav__img {
+  .flav__img,
+  .special__img {
     height: 250px;
   }
 }
@@ -957,10 +990,12 @@ body {
   .title {
     font-size: 30px;
   }
-  .flav__info {
+  .flav__info,
+  .special__info {
     padding-top: 50px;
   }
-  .flav__img {
+  .flav__img,
+  .special__img {
     margin-bottom: 50px;
   }
 }
@@ -993,7 +1028,8 @@ body {
     font-size: 16px;
     padding: 24px 90px;
   }
-  .flav__btn {
+  .flav__btn,
+  .special__btn {
     font-size: 16px;
     padding: 20px 60px;
   }
