@@ -569,6 +569,8 @@ body {
 .footer__content {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .footer__logo {
@@ -990,9 +992,6 @@ body {
     margin-bottom: 50px;
     margin-top: 70px;
   }
-}
-
-@media (max-width: 535px) {
   .offer__img {
     height: 400px;
   }
@@ -1040,7 +1039,8 @@ body {
   }
   .flav__info,
   .special__info,
-  .menu__descr {
+  .menu__descr,
+  .footer__inner {
     padding-top: 50px;
   }
   .flav__img,
@@ -1049,7 +1049,8 @@ body {
     margin-bottom: 50px;
   }
   .menu__items,
-  .offer__descr {
+  .offer__descr,
+  .footer__inner {
     padding-bottom: 50px;
   }
   .menu__item--title {
