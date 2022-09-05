@@ -42,6 +42,22 @@ body {
   color: #000;
 }
 
+.btn {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FEFDFB;
+  background-color: #000;
+  padding: 24px 101px;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
 .container {
   margin: 0 auto;
   max-width: 1475px;
@@ -142,17 +158,6 @@ body {
 }
 
 .header__content-btn {
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 22px;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  color: #FEFDFB;
-  background-color: #000;
-  padding: 24px 101px;
-  border: none;
-  cursor: pointer;
-  display: block;
   margin: 0 auto;
 }
 
@@ -390,16 +395,7 @@ body {
 
 .flav__btn,
 .special__btn {
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 22px;
-  letter-spacing: 0.05em;
-  color: #FEFDFB;
   padding: 24px 77px;
-  background-color: #000;
-  text-transform: uppercase;
-  border: none;
-  cursor: pointer;
 }
 
 .flav__img {
@@ -1029,6 +1025,9 @@ body {
   .offer__img {
     height: 400px;
   }
+  .collage__text {
+    font-size: 28px;
+  }
 }
 
 @media (max-width: 460px) {
@@ -1047,7 +1046,8 @@ body {
     font-size: 50px;
     line-height: 90px;
   }
-  .header__content--text {
+  .header__content--text,
+  .menu__item--title  {
     font-size: 18px;
   }
   .traditions__box--title {
@@ -1057,18 +1057,12 @@ body {
   .traditions__box-img {
     padding-bottom: 15px;
   }
-  .traditions__descr--title {
-    font-size: 30px;
-  }
-  .header__content {
-    margin-top: 150px;
-    padding-bottom: 50px;
-  }
   .testimonial__slider {
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  .title {
+  .title,
+  .traditions__descr--title {
     font-size: 30px;
   }
   .flav__info,
@@ -1086,9 +1080,6 @@ body {
   .offer__descr,
   .footer__inner {
     padding-bottom: 50px;
-  }
-  .menu__item--title {
-    font-size: 18px;
   }
   .offer__inner {
     margin-top: 50px;
@@ -1115,9 +1106,7 @@ body {
     gap: 0px;
     flex-wrap: wrap;
   }
-  .productinfo__box-right .box__text--right {
-    text-align: left;
-  }
+  .productinfo__box-right .box__text--right,
   .productinfo__box-right .box__title--right {
     text-align: left;
   }
@@ -1131,10 +1120,7 @@ body {
   .header__content--text {
     font-size: 16px;
   }
-  .header__content-btn {
-    font-size: 16px;
-    padding: 24px 90px;
-  }
+  .header__content-btn,
   .flav__btn,
   .special__btn {
     font-size: 16px;
