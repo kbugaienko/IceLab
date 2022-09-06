@@ -1178,4 +1178,7 @@ body {
   .header__search {
     right: 0;
   }
+  .collage__text {
+    font-size: 20px;
+  }
 }
