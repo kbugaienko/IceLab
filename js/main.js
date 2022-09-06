@@ -8,6 +8,7 @@ $(function(){
   
   $('.menu__btn').on('click', function(){
     $('.header__list').toggleClass('header__list--active');
+    $('.header__search').toggleClass('header__search--active');
   });
 
   $('.header__search-input').on('focus', function() {
